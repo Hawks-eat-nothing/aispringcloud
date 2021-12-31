@@ -8,19 +8,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hystrix" />
-        <module name="nativeConfigServer" />
+        <module name="zipkin" />
         <module name="restTemplate" />
         <module name="nativeConfClient" />
         <module name="eurekaClient" />
         <module name="ribbon" />
+        <module name="zipkinClient" />
+        <module name="configClient" />
         <module name="zuul" />
         <module name="eurekaServer" />
+        <module name="nativeConfigServer" />
+        <module name="configServer" />
         <module name="feign" />
         <module name="consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="aispringcloud" target="15" />
+      <module name="configClient" target="15" />
+      <module name="configServer" target="15" />
       <module name="consumer" target="15" />
       <module name="eurekaClient" target="15" />
       <module name="eurekaServer" target="15" />
@@ -30,12 +36,16 @@
       <module name="nativeConfigServer" target="15" />
       <module name="restTemplate" target="15" />
       <module name="ribbon" target="15" />
+      <module name="zipkin" target="15" />
+      <module name="zipkinClient" target="15" />
       <module name="zuul" target="15" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aispringcloud" options="-parameters" />
+      <module name="configClient" options="-parameters" />
+      <module name="configServer" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="eurekaClient" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
@@ -45,6 +55,8 @@
       <module name="nativeConfigServer" options="-parameters" />
       <module name="restTemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zipkinClient" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

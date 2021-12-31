@@ -19,6 +19,10 @@
         <module>hystrix</module>
         <module>nativeConfigServer</module>
         <module>nativeConfClient</module>
+        <module>configServer</module>
+        <module>configClient</module>
+        <module>zipkin</module>
+        <module>zipkinClient</module>
     </modules>
 
     <properties>

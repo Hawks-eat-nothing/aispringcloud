@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/starry__kowal/aispringcloud.git
+          searchPaths: config
+          username: root
+          password: root
+      label: mster
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

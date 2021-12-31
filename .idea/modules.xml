@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aispringcloud.iml" filepath="$PROJECT_DIR$/aispringcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configClient/configClient.iml" filepath="$PROJECT_DIR$/configClient/configClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configServer/configServer.iml" filepath="$PROJECT_DIR$/configServer/configServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaClient/eurekaClient.iml" filepath="$PROJECT_DIR$/eurekaClient/eurekaClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
@@ -12,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/nativeConfigServer/nativeConfigServer.iml" filepath="$PROJECT_DIR$/nativeConfigServer/nativeConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/restTemplate/restTemplate.iml" filepath="$PROJECT_DIR$/restTemplate/restTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkin/zipkin.iml" filepath="$PROJECT_DIR$/zipkin/zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zipkinClient/zipkinClient.iml" filepath="$PROJECT_DIR$/zipkinClient/zipkinClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
